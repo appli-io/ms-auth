@@ -1,0 +1,60 @@
+# .gitignore file
+
+# dependencies
+/node_modules
+
+# dotenv environment variables file
+.env
+
+# dist folder
+/dist
+
+# log files
+*.log
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea
+.vscode
+
+# TypeORM
+ormconfig.json
+
+# Docker
+*.dockerignore
+Dockerfile
+
+# Kubernetes
+*.yaml
+
+# CI/CD
+*.yml
+
+# NestJS
+*.ts
+*.js
+*.map
+
+# PostgreSQL
+*.sql
+
+# RabbitMQ
+*.rabbitmq
+
+# API Gateway
+*.gateway
+
+# Auth
+*.auth
+
+# User
+*.user
+
+# Database
+*.database
+
+# Constants
+*.constants
